@@ -4,7 +4,7 @@ import buttons
 
 class GetVencodesGrid(wx.GridBagSizer):
     def __init__(self, parent, panel):
-        super().__init__(10, 10)
+        super().__init__(0, 0)
 
         self.parent = parent
 
