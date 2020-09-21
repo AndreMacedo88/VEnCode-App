@@ -1,5 +1,6 @@
 import wx
 import menus
+import helpers
 
 
 class PanelBinds:
@@ -16,7 +17,4 @@ class PanelBinds:
     def on_key_down(self, e):
         key = e.GetKeyCode()
         if key == wx.WXK_ESCAPE:
-            question = wx.MessageBox('Are you sure to quit?', 'Question',
-                                     wx.YES_NO | wx.NO_DEFAULT, self.parent)
-            if question == wx.YES:
-                self.parent.Close()
+            helpers.question_exit_safely(self.parent)
