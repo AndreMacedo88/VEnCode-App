@@ -26,16 +26,8 @@ Installing
 
 Deployment
 -----------------
-To develop your own projects, import objects directly from VEnCode using, for example:
-
-.. code-block:: python
-
-    import VEnCode
-    object1 = VEnCode.DataTpm(...)
-
-You can see examples of some functions and objects being used at the `VEnCode Capsule`_ hosted in CodeOcean.
-
-Alternatively, you can look at more advanced usage by going to the "Scripts" folder inside the package.
+You can use the GUI app by just running `main.py`.
+If
 
 Contributing
 ------------
@@ -64,10 +56,6 @@ Acknowledgements
 ----------------
 - Integrative Biomedicine Laboratory @ CEDOC, NMS, Lisbon (supported by FCT: UID/Multi/04462/2019; PTDC/MED-NEU/30753/2017; and PTDC/BIA-BID/31071/2017 and FAPESP: 2016/09659-3)
 - CEDOC: Chronic Diseases Research Center, Nova Medical School, Lisbon
-- The MIT Portugal Program (MITEXPL/BIO/0097/2017)
-- LIGA PORTUGUESA CONTRA O CANCRO (LPCC) 2017.
-- FCT (IF/00022/2012, SFRH/BD/94931/2013, PTDC/BEXBCM/1370/2014)
-- Prof. Dr. Ney Lemke and Ms. Benilde Pondeca for important discussions.
 
 .. Starting hyperlink targets:
 
@@ -75,9 +63,9 @@ Acknowledgements
 .. _requirements: https://github.com/AndreMacedo88/VEnCode-App/blob/master/requirements.txt
 .. _this project: https://github.com/AndreMacedo88/VEnCode-App
 .. _SemVer: https://semver.org/
-.. _tags on github: https://github.com/AndreMacedo88/VEnCode/tags
-.. _CONTRIBUTING.rst: https://github.com/AndreMacedo88/VEnCode/blob/master/CONTRIBUTING.rst
-.. _contributors: https://github.com/AndreMacedo88/VEnCode/graphs/contributors
+.. _tags on github: https://github.com/AndreMacedo88/VEnCode-App/tags
+.. _CONTRIBUTING.rst: https://github.com/AndreMacedo88/VEnCode-App/blob/master/CONTRIBUTING.rst
+.. _contributors: https://github.com/AndreMacedo88/VEnCode-App/graphs/contributors
 .. _Andre Macedo: https://github.com/AndreMacedo88
 .. _Alisson M. Gontijo: https://github.com/alissongontijo
 .. _LICENSE: https://github.com/AndreMacedo88/VEnCode-App/blob/master/LICENSE
