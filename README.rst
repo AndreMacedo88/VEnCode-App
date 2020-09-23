@@ -16,29 +16,13 @@ These instructions are designed to:
 Prerequisites
 ^^^^^^^^^^^^^
 
-To effectively use this module you will need Python3_ with some external libraries installed in your machine.
-Check the requirements_ file.
-If you install the package with pip, it should resolve the library requirements for you.
-
-Additionally, you will have to download the unannotated TSS files from `FANTOM5 consortium`_ website.
-More specifically, for human, `this file`_ for promoter analysis, and `this one`_ and the `ID-sample name`_ map for enhancers.
-Finally, download the `curated sample category file`_.
-
-Those 4 files are enough to find CAGE-based VEnCodes for human.
+To effectively use this module you will need Python3_ with the wxPython and VEnCode external libraries installed in
+your machine. Check the requirements_ file for a more complete list of packages.
 
 Installing
 ^^^^^^^^^^
 1. Make sure you have the prerequisites;
-
-If you want to edit the project:
-
 2. Fork `this project`_;
-3. Put the missing FANTOM5 prerequisite files (only the large TSS files are missing) in the directory called "Files".
-
-If you are a user:
-
-2. Install VEnCode with pip;
-3. Put all the FANTOM5 prerequisite files in a directory of your choice and when creating DataTpm objects remember to pass the argument: files_path=your_dir_path.
 
 Deployment
 -----------------
@@ -53,33 +37,6 @@ You can see examples of some functions and objects being used at the `VEnCode Ca
 
 Alternatively, you can look at more advanced usage by going to the "Scripts" folder inside the package.
 
-Running the Tests
------------------
-Tests for this module can be run in several ways; some examples:
-
-1. In the command-line:
-
-1.1. Run python's standard module "unittest" in the tests directory.
-Basic example in command line:
-
-.. code-block:: console
-
-    python -m unittest test_internals
-
-1.2. Install nosetests python package and run nosetests in the "tests" directory.
-Basic example in command line:
-
-.. code-block:: console
-
-    nosetests test_internals.py
-
-2. By importing the VEnCode module in python:
-
-.. code-block:: python
-
-    from VEnCode import tests
-    tests.test_internals_()
-
 Contributing
 ------------
 
@@ -88,10 +45,7 @@ Please read `CONTRIBUTING.rst`_ for details on our code of conduct, and the proc
 Versioning
 ----------
 
-We use SemVer_ for versioning. For the versions available, see:
-
-- The `tags on github`_, or
-- In PyPi_.
+We use SemVer_ for versioning. For the versions available, see the `tags on github`_
 
 Authors
 -------
@@ -119,12 +73,11 @@ Acknowledgements
 
 .. _Python3: https://www.python.org/
 .. _requirements: https://github.com/AndreMacedo88/VEnCode-App/blob/master/requirements.txt
+.. _this project: https://github.com/AndreMacedo88/VEnCode-App
 .. _SemVer: https://semver.org/
 .. _tags on github: https://github.com/AndreMacedo88/VEnCode/tags
-.. _PyPi: https://pypi.org/project/VEnCode/#history
-.. _VEnCode Capsule: https://codeocean.com/capsule/7611480/tree
 .. _CONTRIBUTING.rst: https://github.com/AndreMacedo88/VEnCode/blob/master/CONTRIBUTING.rst
 .. _contributors: https://github.com/AndreMacedo88/VEnCode/graphs/contributors
 .. _Andre Macedo: https://github.com/AndreMacedo88
 .. _Alisson M. Gontijo: https://github.com/alissongontijo
-.. _LICENSE: https://github.com/AndreMacedo88/VEnCode/blob/master/LICENSE
+.. _LICENSE: https://github.com/AndreMacedo88/VEnCode-App/blob/master/LICENSE

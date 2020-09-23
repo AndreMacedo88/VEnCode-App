@@ -3,3 +3,5 @@
 *.iml
 out
 gen
+!/resources/promoters_154cells_non_binarized.csv
+!/resources/enhancers_154cells_non_binarized.csv
