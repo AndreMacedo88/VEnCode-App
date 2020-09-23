@@ -12,14 +12,11 @@ gevent==20.6.2
 gevent-websocket==0.10.1
 greenlet==0.4.16
 kiwisolver==1.2.0
-macholib==1.14
-matplotlib==3.3.2
-modulegraph==0.18
+matplotlib==3.2.2
 numpy==1.19.2
 pandas==1.1.2
 pefile==2019.4.18
 Pillow==7.2.0
-py2app==0.22
 pycparser==2.20
 pyinstaller==4.0
 pyinstaller-hooks-contrib==2020.8
