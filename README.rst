@@ -26,8 +26,11 @@ Installing
 
 Deployment
 -----------------
-You can use the GUI app by just running `main.py`.
-If
+You can use the GUI app by running `main.py`.
+
+If you want to create a executable file/program, you can create a local setup.py and use `PyInstaller` or
+other related tool.
+Alternatively, install the package `auto-py-to-exe` and follow the package instructions.
 
 Contributing
 ------------
